@@ -7,4 +7,7 @@ public class OutputView {
         System.out.println(PrintMessage.OUTPUT_GAME_START);
     }
 
+    public void printGameResult(String result){
+        System.out.println(result);
+    }
 }
